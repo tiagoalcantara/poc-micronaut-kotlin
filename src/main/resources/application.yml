@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: casaDoCodigoMicronaut
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/casa_do_codigo
+    driverClassName: org.postgresql.Driver
+    username: micronaut
+    password: kotlin
+    dialect: POSTGRES
+
+jpa.default.properties.hibernate.hbm2ddl.auto: update
